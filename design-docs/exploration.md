@@ -526,7 +526,7 @@ On the other hand, the Rust Foundation Maintainer Fund is (at least at the begin
 
 The Rust Foundation hopes that once the Fund has bootstrapped itself, it might be possible to also offer employment to provide more stable support for maintainers in the future.
 
-That being said, the Rust Foundation is looking into supporting short-term employment contracts via remote.com to ensure maintainers don't have to set up their own limited liability company, take the risk (in some countries) that they can legally have a contract with employment-like restrictions, and get social security (including unemployment benefits if the contract is not renewed).
+That being said, the Rust Foundation is looking into supporting short-term employment contracts via remote.com to ensure maintainers don't have to set up their own limited liability company, take the risk (in some countries) that they can legally have a contract with employment-like restrictions, and get social security (including unemployment benefits if the contract is not renewed). This document will be updated once we have more information.
 
 ## Can't the Rust Foundation employ people through third-party entities?
 [faq-rf-external-entities]: #Cant-the-Rust-Foundation-employ-people-through-third-party-entities
