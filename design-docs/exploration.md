@@ -158,7 +158,7 @@ There are also other possibilities to explore here, e.g. combining the council w
 - The current council was not elected with the knowledge that it would be responsible for distributing RFMF money *specifically*.
 - Some current members of the council might be eligible/interested in funding from RFMF. Those members would of course be completely recused from participating in the selection process. They could be replaced by a different member of the team that they represent though; we already do this e.g. for Project Director elections. It could still be seen as a conflict of interest to be selected by the LC.
 
-### C.2 Team leads
+### C.2 LC + team leads
 We could expand the set of Project representatives from the Council to e.g. team leads (currently ~40 people, but that includes teams that have multiple leads).
 
 **Pros**:
