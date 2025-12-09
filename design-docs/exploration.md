@@ -294,7 +294,7 @@ Both approaches seem viable (and desired) by our maintainers.
 - It could help us stretch our budget further.
 
 **Cons**:
-- Part-time cooperation might not be enough for long-term sustainable maintenance.
+- Part-time cooperation might not be enough for long-term sustainable maintenance that provides stability to the maintainer.
 - Some maintainers are only interested in switching to funded maintenance if it can be full-time, managing multiple jobs at once is difficult.
 - We get less time from each funded maintainer, which may make it harder to have more frequent accomplishments with which to demonstrate accountability and seek more funding.
 
