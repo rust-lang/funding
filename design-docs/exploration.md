@@ -337,7 +337,7 @@ We could pay maintainers using grants, without any specific contracts.
 
 **Cons**:
 - Similar to contracting, it does not provide stability or non-financial benefits to the maintainer.
-- Similar to contracting, receiving a lot of funds through grants is a gray legal area and could trigger tax issues in certain countries (like Germany or Netherlands).
+- Similar to contracting, receiving a lot of funds through grants is a gray legal area and could trigger tax issues in certain countries (like Germany, France or Netherlands).
 - We might be unable to have any sort of contract that would prescribe the ground rules of what the maintainer should be doing.
 
 #### G2.3: Employment
