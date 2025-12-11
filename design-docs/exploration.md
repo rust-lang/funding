@@ -323,8 +323,7 @@ Same as e.g. the Python or Zig Software Foundations, we could contract the maint
 - Does not provide as much stability to the maintainer as employment in terms of long-term support.
 - Does not offer the same benefits as employment (health insurance, vacations, 401k, mortgage, visas, etc.).
 - In some countries (e.g. Germany or France), full-time/single-source contracting is a legal gray zone that is close to being outright illegal.
-  - It might require the maintainer to set up a "personal company" (e.g. a limited liability company), along with all the taxes and legal work that comes with it.
-  - Some maintainers reported that they were already checked by the tax office due to full-time contracting.
+  - It might require the maintainer to set up a "personal company" (e.g. a limited liability company), along with all the taxes and legal work that comes with it. But not even that can be enough; some maintainers reported that they were already checked by the tax office due to full-time contracting. In other words, in some jurisdications the only legal way to have a full-time single source income might be employment.
 - It might be difficult to persuade some potential maintainers to switch from their current full-time employment to contracting.
 - Due to the aforementioned challenges, some current maintainers would be unable to be funded if we only offer contracting.
 
