@@ -347,7 +347,7 @@ We could pay maintainers using grants, without any specific contracts.
 The maintainer could be officially employed, either by the Rust Foundation, or some intermediary, to work on Rust.
 
 **Pros**:
-- It give the most stability and a "safety net" for the maintainer, especially around things like vacations, "401k", medical benefits, etc.
+- It gives the most stability and a "safety net" for the maintainer, especially around things like vacations, "401k", medical benefits, etc.
 - It can be the only way to persuade people who currently have a full-time employment to switch to working on Rust instead.
 - It might provide a better CV entry and career reference.
 - It can be useful for avoiding visa problems or getting a mortgage.
