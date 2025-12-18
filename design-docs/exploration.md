@@ -63,7 +63,7 @@ Maintenance would be combined with feature work. For example, the funded maintai
 - Has a nice synergy with companies paying people to do implementation work, while also contributing to paying maintainers that unblock that work.
 
 **Cons**:
-- The maintainer would have less time for general maintenance work
+- The maintainer would have less time for general maintenance work.
 
 ### A2: Funding people/teams/areas/work
 [a2]: #A2-Funding-peopleteamsareaswork
@@ -307,7 +307,7 @@ Both approaches seem viable (and desired) by our maintainers.
 
 ### G2: employment vs contracting vs grants
 
-Note that the Rust Foundation can currently primarily offer contracting or grants. It is unclear whether direct employment will be possible at the moment ([why?][faq-rf-employment]). We keep the employment option below for reference, and to make it clear that we have considered it.
+Note that the Rust Foundation can currently primarily offer contracting or grants. Employment will not be possible at the moment ([why?][faq-rf-employment]). We keep the employment option below for reference, and to make it clear that we have considered it.
 
 #### G2.1: Contracting
 Same as e.g. the Python or Zig Software Foundations, we could contract the maintainer based on the number of hours spent on Rust each month.
@@ -342,7 +342,7 @@ We could pay maintainers using grants, without any specific contracts.
 #### G2.3: Employment
 [G23]: #G23-Employment
 
-> Note: Direct employment might not be offered by RFMF ([why?][faq-rf-employment]).
+> Note: Employment will not be offered by RFMF at the beginning ([why?][faq-rf-employment]).
 
 The maintainer could be officially employed, either by the Rust Foundation, or some intermediary, to work on Rust.
 
@@ -524,15 +524,12 @@ The Rust Foundation currently employs several people to work on Rust directly (e
 
 On the other hand, the Rust Foundation Maintainer Fund is (at least at the beginning) expected to mostly receive one-off donations from companies that might come in irregularly over the year. That does not provide enough long-term stability that would enable the Rust Foundation to offer long-term employments for the maintainers.
 
-The Rust Foundation hopes that once the Fund has bootstrapped itself, it might be possible to also offer employment to provide more stable support for maintainers in the future.
+Statement from the Rust Foundation about this:
 
-That being said, the Rust Foundation is looking into supporting short-term employment contracts via remote.com to ensure maintainers don't have to set up their own limited liability company, take the risk (in some countries) that they can legally have a contract with employment-like restrictions, and get social security (including unemployment benefits if the contract is not renewed). This document will be updated once we have more information.
+The Foundation has been considering all options, and we want to be as fair, transparent and responsible as possible when it comes to distributing any funds from the RFMF.
 
-## Can't the Rust Foundation employ people through third-party entities?
-[faq-rf-external-entities]: #Cant-the-Rust-Foundation-employ-people-through-third-party-entities
+Contracting X amount for Y amount of time is primarily how we will approach this. We want to have a direct relationship with any contracted maintainers, so contracts will need to be with individuals or their personal LLC (or similar depending on territory). Use of a close contacts small LLC can also be considered, providing that the contract names the contractor, that a direct relationship is established, and that 100% of funds will go to the funded maintainer.
 
-Some maintainers might need employment for various reasons (see [G2.3][G23]). Could the Rust Foundation contract to a third-party company that would employ them?
+We looked into using Remote, but that offers no benefits and would incur substantial fees for providing contracts that we can avoid if administering funds directly. We won't be able to distribute funds via intermediary organisations, and we won't be able to offer full employment.
 
-The Rust Foundation is willing to contract to small companies (such as a limited liability company) that are set up by the maintainer themselves, so that the maintainer can make full-time contracting legal in their country (when applicable).
-
-Any fund taking money from the Foundation must make sure to understand and accommodate its constraints, legal or otherwise. Transferring the funds through third-party intermediaries can create legal and auditing risks for them. They have also expressed a strong preference for having a direct relationship with the maintainer, to ensure that the paid money will go (in full) to them, without management overheads taken by third-party intermediaries.
+We know that this model is imperfect and that it won't work for everyone. We would take a different path if we had better funding guarantees, and our long-term goal is to grow membership to enable us to move to a model where we can properly employ more people to work in the Project. For now, we are putting these parameters in place to (a) ensure that individuals seeking funding have complete clarity on funding amounts and the period of paid time, and (b) to ensure that the Foundation does not become liable for unexpected costs or contravene domestic employment laws. It's not what we would ideally want, but we hope it's better than where we are right now.
