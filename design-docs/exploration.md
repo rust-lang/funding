@@ -171,7 +171,7 @@ We could expand the set of Project representatives from the Council to e.g. team
 - This provides more selection power to top-level teams, who would get represented both by their team lead(s) and by their Council member. We could also just remove the Council from the decision group and have only team leads to resolve this.
 
 ### C.3 Newly appointed individuals
-The Leadership Council could point a set of individuals that would be making the decision. This group of people could be rotated on a regular basis to.
+The Leadership Council could point a set of individuals that would be making the decision. This group of people could be rotated on a regular basis too.
 
 **Pros**:
 - We would select a set of people with the prior knowledge that they will be responsible for making maintainer funding deciding (which was not apriori known when council members were last elected).
