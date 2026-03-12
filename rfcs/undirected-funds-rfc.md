@@ -37,11 +37,14 @@ The problems teams describe require sustained, long-term presence.
 
 ## What kind of sponsors do we expect
 
-We expect two kinds of sponsors. First, individuals and organizations that value Rust and want to support its long-term health without any particular expectations. These will generally be smaller-dollar sponsors contributing to a project they believe in.
+We expect three kinds of support.
 
-Second, and important for the fund's sustainability, are companies that employ developers or contributors working full-time to improve Rust. These companies are invested in Rust development, but their contributors' work still needs to be reviewed and landed by experienced maintainers. The incentive structures at most companies don't reward "general maintenance" like reviewing other people's PRs, mentoring newcomers, fixing regressions, and driving cross-cutting refactors. These activities don't advance any single company's goals, so they're hard to justify in a performance review and vulnerable to restructuring when priorities shift. Sponsoring the maintainer fund is a way for these companies to ensure the maintenance layer their contributors depend on stays healthy.
+First, small-dollar donations from individuals and organizations that value Rust and want to support its long-term health without any particular expectations. The Foundation will help get the word out via funding drives and PR campaigns.
 
-Additionally, the proposed Project Goals Funding program (see [Future possibilities][]) would direct a percentage of directed funding into the RFMF, providing another revenue stream for maintenance work.
+Second, when the Foundation takes in directed funding towards a particular goal, best practice will be to direct a percentage of that work into the RFMF, providing another revenue stream for maintenance work. (See the [Future Possibilities](#future-possibilities) section for more discussion in this direction.)
+
+The third category is companies that employ developers or contributors working full-time to improve Rust. These companies are invested in Rust development, but their contributors' work still needs to be reviewed and landed by experienced maintainers. The incentive structures at most companies don't reward "general maintenance" like reviewing other people's PRs, mentoring newcomers, fixing regressions, and driving cross-cutting refactors. These activities don't advance any single company's goals, so they're hard to justify in a performance review and vulnerable to restructuring when priorities shift. Sponsoring the maintainer fund is a way for these companies to ensure the maintenance layer their contributors depend on stays healthy.
+
 
 ## Why would companies sponsor the fund
 
