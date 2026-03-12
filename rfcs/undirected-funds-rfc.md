@@ -9,11 +9,11 @@ This RFC defines the relationship between the Rust Foundation Maintainer Fund (R
 
 The Leadership Council has a Project Priorities budget, which is used to fund various initiatives, such as travel grants or program management. RFMF funds will be directed to this budget, but they will be earmarked for maintainer sponsorship. That means that they can be used only for activities that directly support Rust Project maintainers, which might include the program management program or the Project Grants Program ([RFC 3919]), which provides modest stipends to recognize and support existing contributors. We propose a new funding program for supporting maintainers described below, which should be the primary target of these earmarked funds.
 
-This RFC adds a new program: Maintainers in Residence (MiR). Maintainers in Residence work full-time (or close to full-time) on some part of the Rust project — reviews, design guidance, mentorship, refactoring, and the kind of sustained technical work that volunteers can't commit to. Their time is split roughly 50/50: half on priorities guided by team leads in their area of focus, half on priorities of their own choosing within the project.
+This RFC adds a new program: Maintainers in Residence (MiR). Maintainers in Residence have dedicated time to focus on some part of the Rust project. Their time is split between priorities guided by the teams they are supporting and priorities of their own choosing within the project.
 
-This RFC defines a Funding team charter to govern MiR selection: staying in contact with teams to understand their needs and working with the Foundation to identify and vet candidates. The Funding team and Foundation collaborate on the hiring decision; the Foundation handles contracting, compensation, and sponsor relations. We leave it to the Leadership Council to decide whether the Funding team should be merged with the Grants team proposed in [RFC 3919] or kept separate, as the Funding team's responsibilities would be a substantial increase in scope.
+Selecting Maintainers in Residence is a collaboration between the Foundation and a "Funding team" appointed by the Leadership Council. This Funding team will weigh the set of applications against the project's needs and priorities.
 
-Finally, this RFC describes what sponsors receive in return for their contributions. When sponsors contribute undirected funding, they are placing a bet on the Rust project as a whole — and the project should meet them in good faith. The full weight of demonstrating value should not fall on Maintainers in Residence alone; this is a program that supports the entire project, and the entire project benefits from its success.
+The Funding team is additionally charged with ensuring the program's overall success. When sponsors contribute undirected funding, they are investing in the Rust project as a whole — and the project should meet them in good faith. The rest of the project is expected to help the Funding team manage sponsor relations, e.g., by meeting with sponsors or providing other reasonable sponsor benefits.
 
 [RFC 3919]: https://github.com/rust-lang/rfcs/pull/3919
 
@@ -41,6 +41,8 @@ We expect two kinds of sponsors. First, individuals and organizations that value
 
 Second, and important for the fund's sustainability, are companies that employ developers or contributors working full-time to improve Rust. These companies are invested in Rust development, but their contributors' work still needs to be reviewed and landed by experienced maintainers. The incentive structures at most companies don't reward "general maintenance" like reviewing other people's PRs, mentoring newcomers, fixing regressions, and driving cross-cutting refactors. These activities don't advance any single company's goals, so they're hard to justify in a performance review and vulnerable to restructuring when priorities shift. Sponsoring the maintainer fund is a way for these companies to ensure the maintenance layer their contributors depend on stays healthy.
 
+Additionally, the proposed Project Goals Funding program (see [Future possibilities][]) would direct a percentage of directed funding into the RFMF, providing another revenue stream for maintenance work.
+
 ## Why would companies sponsor the fund
 
 For companies that depend on Rust, what matters most is knowing that the daily work of the project continues — that good ideas won't wither on the vine for lack of reviewer bandwidth, and that bugs will be fixed promptly, particularly bugs they themselves are hitting. Sponsoring the maintainer fund is a direct investment in that capacity.
@@ -64,11 +66,11 @@ The RFMF collects sponsorships from companies and individuals. Funds support pro
 
 The Project brings knowledge of team health and needs; the Foundation brings logistics, sponsor relationships, and operational capacity. The Funding team (see below) identifies which areas need support and works with the Foundation to select candidates. The Foundation is involved in the hiring decision and handles contracting, compensation, and sponsor relations. This is a partnership, not a handoff — both sides contribute throughout.
 
-### Engaging RFMF sponsors is a whole-project affair
+### The Project helps maintainers demonstrate their impact
 
-Sponsor engagement is not something Maintainers in Residence do alone — the Leadership Council, team leads, and MiRs all participate. See [What sponsors get][] for details. Sponsor engagement does not imply that any technical decisions (RFC approvals, PR reviews, design choices) should be made differently than they would be otherwise.
+Sponsor engagement is not something Maintainers in Residence do alone — the Leadership Council, team leads, and MiRs all participate. The Project provides scaffolding — goals, program management, reporting infrastructure — so maintainers can focus on the work while sponsors get visibility into outcomes. See [What sponsors get][] for details. Sponsor engagement does not imply that any technical decisions (RFC approvals, PR reviews, design choices) should be made differently than they would be otherwise.
 
-### Maintainers are team members, not outsiders
+### Maintainers are team members
 
 Maintainer in Residence candidates must already be members of the relevant Rust team(s) with the permissions needed for the work — reviewing PRs, championing goals, and performing actions limited to official team members. This is a hard requirement, not just an expectation. Funded maintainers are not a separate class of contributor — they're existing team members who can now commit sustained time.
 
@@ -76,33 +78,36 @@ Maintainer in Residence candidates must already be members of the relevant Rust 
 
 The RFMF doesn't try to be the sole channel for funding Rust maintenance. The Maintainer in Residence program fills a specific role: allowing project teams to select and direct maintainers toward the areas they identify as most critical. Other structures — the proposed Project Goals Funding program for directed grants (see [Future possibilities][]), the Project Grants Program for contributor stipends, the Rust-Analyzer Open Collective, the proposed RustNL Maintainer Fund, company employment — serve complementary roles.
 
-### The Project helps maintainers demonstrate their impact
-
-The Project provides scaffolding — goals, program management, reporting infrastructure — so maintainers can focus on the work while sponsors get visibility into outcomes.
-
 ## What sponsors get
 [what-sponsors-get]: #what-sponsors-get
 
 RFMF sponsors contribute to a general fund and don't direct where the money goes or who gets hired. Every contribution helps fund the sustained maintenance that keeps Rust healthy. All sponsors receive public recognition and visibility into how funds are being used through regular public reports.
 
-The Foundation should establish sponsorship tiers to encourage larger contributions and year-over-year commitment, as sustained sponsorship permits more stability for the program. Possible benefits include:
+The Foundation should establish sponsorship tiers to encourage larger contributions and year-over-year commitment, as sustained sponsorship permits more stability for the program. The specific tiers are best determined over time by the Foundation and Funding team, but they could include benefits like the following:
 
 * **Sponsor meetings.** The Foundation builds a community of sponsoring organizations that meets with project leadership (Leadership Council, team leads) and Maintainers in Residence a few times a year to discuss project direction, sponsor experiences, and pain points. Project leadership gains insight into the needs of major Rust users; sponsors get visibility into the roadmap and the opportunity to hear from other Rust-adopting companies.
+* **Impact reporting.** Regular reports on what funded maintainers are working on, progress on Project Goals, and how the program is contributing to Rust's health. These reports are prepared with help from the program management team and made publicly available.
 * **Best-effort attention.** Sponsors can reach out to the Foundation or project contacts about PRs or bugs that need attention. There is no SLA or guarantee — any maintainer would bump a bug report from an active user, and sponsors can reasonably expect the same consideration.
 
-This RFC does not define the tiers — that is the Foundation's domain.
+These are reasonable expectations that don't compromise the Project's independence — they represent the kind of engagement any healthy open-source project should provide to its supporters.
 
-Sponsor priorities and pain points are an input to the Leadership Council and Funding team when making funding decisions — not as direction, but as signal about what matters to users.
+*What sponsors do not get:* the ability to unilaterally direct a maintainer's work, pick who gets hired, pick who gets added to project teams, bypass project processes, or influence technical decisions.
 
-*What sponsors do not get:* the ability to direct a maintainer's work, pick who gets hired, bypass project processes, or influence technical decisions.
+## Selection process is driven by a team within the project, supported by Foundation staff
 
-## The Funding team
+When funding is available, the Funding team and Foundation put out an open call for applications. The Funding team and Foundation staff review applications, consider the project's needs, and then the Foundation makes offers to the strongest candidates.
 
-This RFC defines a set of responsibilities we call the "Funding team" charter: staying in contact with teams, connecting them to resources, and working with the Foundation to select MiR candidates. The organizational structure is left to the Leadership Council. See the [reference-level explanation][reference-level-explanation] for details and [Unresolved questions][] for discussion of organizational form.
+## The Funding team owns the project's long-term success and interfaces with maintainers-in-residence
 
-## Sustained positions with balanced expectations
+The Funding team owns the program's overall success. They keep up with teams to understand where support is needed and how well the program is working; they can adjust aspects of the program to make it work better over time.
 
-Maintainers in Residence split their time roughly 50/50: half on team priorities (whatever the team needs most), half on individual priorities of their choosing within the project (with the expectation that most of it will be near the designated area). This split is about team-directed vs. self-directed, not "maintenance vs. features." The PSF's experience after nearly five years confirms that allowing this balance "made all the difference" — pure maintenance work becomes draining over time. See [Maintainer in Residence expectations](#maintainer-in-residence-expectations) for details.
+If there are concerns about a MiR, they can be raised to the funding team. The team will gather context and work with the Foundation manager to resolve the concern. Typically this means a conversation that brings about a change in behavior. In extreme cases, this might include performance management options like terminating a contract or opting not to renew.
+
+*Unresolved question:* We are describing the Funding team as if they are a distinct team. As described in the [Unresolved questions][], the Leadership Council may opt to instead grow the scope of an existing team like the Grants team.
+
+## What Maintainers in Residence do
+
+Maintainers in Residence split their time between team priorities and individual priorities of their own choosing within their area of focus. The exact balance varies depending on the individual, their experience, and the needs of the team — the important thing is that both team-directed and self-directed work are expected. This is about "team-directed vs. self-directed," not "maintenance vs. features." The PSF's experience after nearly five years confirms that focusing purely on team-directed needs and multiplicative maintenance can be very draining; giving time for self-directed projects "made all the difference" in satisfaction.
 
 # Reference-level explanation
 [reference-level-explanation]: #reference-level-explanation
@@ -114,28 +119,31 @@ The Funding team's role is to keep a pulse on the project and work with the Foun
 1. **Staying in regular contact with teams** — meeting regularly with team leads and members to understand their needs, health, and where support would have the most impact.
 2. **Connecting teams to available resources** — even outside MiR hiring. This might mean redirecting an existing maintainer to help with a situation, connecting a team lead to the Foundation, or surfacing resources a team didn't know existed.
 3. **Working with the Foundation to select MiR candidates** — when positions become available, evaluating applicants and selecting candidates who'll have the most overall impact based on project needs.
+4. **Collecting feedback on how well the program and the MiRs are working** — as the team responsible for selecting which maintainers to hire, the Funding team is also the team responsible for fielding feedback on how well those decisions work out and making adjustments as needed.
 
-The Funding team works with the Foundation on hiring decisions but does not handle contracting or compensation; that is the Foundation's domain. After hiring, the Funding team receives concerns about MiR conduct or performance and works with the Foundation to resolve them; over time, a dedicated manager role may be created (see [Who manages Maintainers in Residence after they're hired?][who-manages-mirs]).
+The Foundation supports the Funding team with logistics. The Foundation issues contracts or manages employment. They provide managerial support to convey feedback.
+
+We expect that initially this managerial work can be managed by existing Foundation staff. If the program grows to a large number of MiR, however, we recommend that the Leadership Council use some portion of the RFMF funds to hire a dedicated manager who would work closely with the Funding team (see [Who manages Maintainers in Residence after they're hired?][who-manages-mirs]).
 
 Beyond individual hiring decisions, the Funding team has ownership of the program's long-term health: apportioning available funds across positions, ensuring that funded work gets reported on, demonstrating return on investment to sponsors, and sustaining and growing the program over time. The RFC specifies the inputs and constraints for these decisions — project needs, team health, sponsor priorities, candidate qualifications — but delegates the decision process itself to the team, which is expected to operate transparently and document how it makes decisions.
 
 ## Application and vetting process
 
-The process of contracting a new Maintainer in Residence begins with an open call for applications. Anyone can apply — broad applications help surface needs and candidates the Funding team might not have identified on its own. However, successful candidates must already be members of the relevant Rust team(s) with the permissions needed for the work.
+The process of contracting a new Maintainer in Residence begins with an open call for applications. Any member of a Rust team or person to whom team membership has been offered can apply — broad applications help surface needs and candidates the Funding team might not have identified on its own.
 
-Applicants provide their background and experience — both within the Rust project and professionally — along with a high-level description of the kind of work they would like to do. This description can be quite general (e.g., "maintain rustfmt") but could also be specific (e.g., "split the project into multiple independent libraries").
+Applicants provide (1) their background and experience — both within the Rust project and professionally; (2) their availability (full-time, part-time, etc); and (3) a high-level description of the kind of work they would like to do. This description can be quite general (e.g., "maintain rustfmt") but could also be specific (e.g., "split project `foo` into multiple independent libraries `bar` and `baz`").
 
 The Funding team prioritizes applications based on:
 
 1. conversations with team leads and team members to assess what support is most urgently needed;
 2. the applicant's history with the project;
 3. any specific work that was proposed in the application;
-4. the results of interviews or conversations with the applicant; and
-5. any history of interpersonal or Code-of-Conduct issues known to the moderation team.
+4. the applicant's availability and whether it suffices for the tasks they expect to perform;
+5. the results of interviews or conversations with the applicant; and
+6. any history of interpersonal or Code-of-Conduct issues known to the moderation team.
 
-The Funding team evaluates applicants on three dimensions: technical depth in the relevant area, community standing and trust within the Project, and sustained work orientation (whether the candidate's track record suggests they'll thrive in a role focused on reviews, mentorship, unblocking, and the kind of long-term technical work that requires deep context).
+The Funding team works with the Foundation to select from the applicant pool and to extend offers. The Funding team is looking for maintainers that have technical depth in the relevant area, community standing and trust within the Project, and sustained work orientation (a track record that suggests they'll thrive in a role focused on reviews, mentorship, unblocking, and the kind of long-term technical work that requires deep context).
 
-The Funding team works with the Foundation to select from the applicant pool. The Foundation makes the final decision on who receives the contract, but the expectation is that it will follow the Funding team's recommendation. There may be practical reasons (salary expectations, availability, fit) that lead to a different choice. The fact that applications are open is public; the prioritized recommendations and individual feedback are confidential between the Funding team and the Foundation.
 
 ## Contract terms and renewal
 
@@ -155,14 +163,16 @@ In advance of contract renewal, the Foundation will consult with the Funding tea
 
 ## Maintainer in Residence expectations
 
-Maintainers in Residence are expected to spend 100% of their funded time working to improve the Rust project. Within that:
+Maintainers in Residence are expected to spend 100% of their funded time working to improve the Rust project. That funded time can be split between:
 
-* ~50% on **team priorities** — whatever the team identifies as most important. This includes reviews, mentoring, bug-fixing, triage, and larger development work like refactors or subsystem rewrites.
-* ~50% on **individual priorities of their choosing** within the project.
+* **Team priorities** — items that are prioritized by the team(s) that the maintainer belongs to. This includes reviews, mentoring, bug-fixing, triage, and larger development work like refactors or subsystem rewrites.
+* **Self-selected items** — work of the individual's choosing.
+
+We expect an approximately 50/50 split between these two, but the exact split will vary depending on the individual, their experience, and the needs of the team. The Funding team should monitor and make sure that team priorities are being adequately served, while also ensuring that MiR have the opportunity to pursue self-selected work. If both cannot be done, that likely indicates the need for another MiR in that area.
 
 Maintainers in Residence are also expected to:
 
-* resolve time-critical issues such as newly reported bugs;
+* resolve time-critical issues such as urgent bugs;
 * champion Project Goals supported by their respective teams, even if they themselves might not have championed that goal as an individual;
 * work with the Project to ensure their work gets regularly reported on;
 * remain a member of the Project and relevant teams, in good standing.
@@ -175,20 +185,22 @@ Requests that go beyond this — "develop this feature" or "devote sustained tim
 
 ## Reporting and impact visibility
 
-Funded maintainers participate in the Project Goals process the same way any other team member does. If they champion a goal, they show up in the goal's tracking and reporting. If they provide review bandwidth for a goal, that's reflected in the goal's progress updates. There is no separate reporting track for funded maintainers; the Goals program is the reporting infrastructure.
 
-To ensure continued funding, it is important that the RFMF is able to demonstrate impact and value to its sponsors. The entire Project has a stake in maintainers demonstrating impact, and other teams are expected to assist:
+While MiR are expected to help collect data for reporting, they will be supported by the project, and the overall reporting expectations should not be substantively more onerous than for volunteer contributors. The point is to reduce burden, not add it.
+
+Examples of project support include:
 
 * The program management team will prepare an initial draft by examining GitHub activity (PR reviews, etc.) and via updates on Project Goals championed by the maintainer.
 * The Content team will interview maintainers and highlight their work.
 
 Program managers collect progress updates from goal owners (funded or not) on a regular cadence and prepare summaries. For funded maintainers, these summaries serve double duty: they give the Project visibility into goal progress, and the Foundation can use them to prepare sponsor-facing reports.
 
-The reporting expectations for funded maintainers are not substantively more onerous than for volunteer contributors. The point is to reduce burden, not add it.
-
 ## Performance management
 
-The Foundation staff and the Funding team will monitor the maintainer's work and periodically solicit feedback from contributors and other team members. If they do not feel that a maintainer is doing a good job, Foundation staff are expected to provide constructive feedback to the maintainer. If the maintainer's performance does not improve, their contract will not be renewed.
+The Foundation staff and the Funding team will monitor the maintainer's work and periodically solicit feedback from contributors and other team members. The moderation team is encouraged to inform the Funding team and/or Foundation about any reported issues relevant to a MiR's conduct.
+
+If a maintainer is not performing well, Foundation staff are expected to provide constructive feedback. If performance does not improve, the Foundation may decline to renew the contract or, in serious cases, terminate it early. The Foundation is responsible for the operational side of these decisions (contract changes, termination).
+
 As the program grows, we may wish to transition this role from a responsibility of the Foundation staff to a dedicated manager working within the project. See [the FAQ on this topic.][who-manages-mirs]
 
 Separately, Code of Conduct violations that result in removal from the Project immediately terminate the contract. Team membership is a hard requirement for the role; a maintainer who is no longer a project member cannot continue as a Maintainer in Residence.
@@ -198,22 +210,13 @@ The Project does not decide whether a contract gets renewed; it provides input.
 # Frequently asked questions
 [faq]: #faq
 
-## How will the Funding team be organized?
-[funding-team-org]: #how-will-the-funding-team-be-organized
-
-This RFC defines the Funding team's charter — its responsibilities — but leaves the organizational structure to the Leadership Council. There are two main options:
-
-**Extend the Grants team.** The Grants team proposed in [RFC 3919] already has an LC appointment process, selection infrastructure, and conflict-of-interest policies. Extending it avoids fragmenting volunteer attention across overlapping committees.
-
-**Create a new team.** The Funding team's charter is broader than selecting recipients — it includes staying in regular contact with teams, connecting them to resources, and understanding project health holistically. MiR selection is only one part of that mandate. A new team with a broader mandate may be a better fit than extending a team whose focus is choosing grant recipients. There is also a difference in operating cadence: the Grants program has predictable cycles, while the Funding team may need to react promptly when new funding becomes available rather than waiting for the next scheduled round. Current Grants team members may not have signed up for that kind of bandwidth or latency.
-
-We expect the Leadership Council to determine the right organizational form.
-
 ## What does it look like to have a Maintainer in Residence on my team?
 
 In one sense, the same as having any other team member. They show up in reviews, participate in design discussions, mentor newcomers, and work on what the team needs. The PSF's experience after nearly five years is instructive: the Developer in Residence does roughly 50/50 maintenance and proactive work, and the role feels like "just another team member" rather than an outside presence.
 
-But there is an important difference beyond just having more time. Most team members are volunteers, and team leads can't ask volunteers to take on specific tasks — they can only hope someone steps up. A Maintainer in Residence, by contrast, has dedicated half their time to team priorities. Team leadership should feel free to ask a MiR to take on high-priority work that nobody else can tackle — championing a goal, driving a critical refactor, clearing a review backlog — so long as it fits within that team-priorities capacity. This is a resource that team leads have never had before, and it changes the dynamic from "hoping someone volunteers" to "directing sustained effort where it's needed most."
+But there is an important difference beyond just having more time. Most team members are volunteers, and teams can't ask volunteers to take on specific tasks — they can only hope someone steps up. A Maintainer in Residence, by contrast, has dedicated part of their time to team priorities. The team should feel free to ask a MiR to take on high-priority work that nobody else can tackle — championing a goal, driving a critical refactor, clearing a review backlog — so long as it fits within that team-priorities capacity. This is a resource that teams have never had before, and it changes the dynamic from "hoping someone volunteers" to "directing sustained effort where it's needed most."
+
+While MiRs should help teams with their needs, they also have a right to reserve time for their own priorities. MiR can feel free to decline to work on team priorities past a certain point. The Funding team will help to negotiate this balance as needed.
 
 ## Why not a flexible contractor pool instead of long-term maintainers?
 
@@ -240,7 +243,7 @@ See the ["Who manages MiR"][who-manages-mirs] question.
 
 ## What about people who only want to work part time?
 
-Maintainers in Residence can work substantial part-time — the key requirement is enough concentrated time to build and maintain deep context, not necessarily a 40-hour week. Some areas may not need a full person's time, and it's fine to have one person cover two areas or two people each contribute part-time to a single area. For contributors who want lighter-touch support, the LC's Project Grants Program ([RFC 3919], ~$1,500/month) is designed for exactly that. The two programs are complementary: grants support a broad base of contributors; the RFMF funds sustained maintenance work from people with deep context.
+Maintainers in Residence can work substantial part-time — the key requirement is enough concentrated time to build and maintain deep context, not necessarily a 40-hour week. Some areas may not need a full person's time, and it's fine to have one person cover two areas or two people each contribute part-time to a single area. For contributors who want lighter-touch support, the LC's Project Grants Program ([RFC 3919]) is designed for exactly that. The two programs are complementary: grants support a broad base of contributors; the RFMF funds sustained maintenance work from people with deep context.
 
 ## What about sponsors who want to pay for a particular item to get done?
 
@@ -254,7 +257,7 @@ The earmark is broad: Maintainers in Residence, project grants, and the program 
 
 ## What does this RFC deliberately not specify?
 
-This RFC defines how the RFMF collects sponsorships, what kinds of things sponsors receive in return, and how the Project and Foundation work together to select and manage Maintainers in Residence. It deliberately does not specify how much funding the RFMF has, specific sponsorship tier structures, or detailed solicitation strategy. It also leaves operational details to the Foundation: compensation levels, detailed contract terms, evaluation criteria specifics, and reporting templates. RFMF funds are earmarked for funding maintainers, but the Leadership Council determines the specific form. The broad shape described here is a recommendation, subject to modification over time as the program learns what works.
+This RFC defines how the RFMF collects sponsorships, the benefits sponsors receive, and how the Project and Foundation work together to select and manage Maintainers in Residence. It deliberately does not specify how much funding the RFMF has, specific sponsorship tier structures, or detailed solicitation strategy. It also leaves operational details to the Foundation: compensation levels, detailed contract terms, evaluation criteria specifics, and reporting templates. RFMF funds are earmarked for funding maintainers, but the Leadership Council determines how much of those funds to use for MiR vs Project Grants vs other programs. The broad shape described here is a recommendation, subject to modification over time as the program learns what works.
 
 ## What happens if we don't do this?
 
@@ -297,7 +300,7 @@ The Scala Center employs engineers directly as university employees, which provi
 
 ## Project Grants Program: a related committee model
 
-The Leadership Council's Project Grants Program ([RFC 3919]) proposes a $100K program supporting ~5 contributors at $1,500/month. It charters a Grants team (5 members, LC-appointed, organized as a Launching Pad subteam) to select recipients and oversee the program. The RFC explicitly positions itself as "distinct from, but complementary to" the RFMF: grants are smaller-scale, flexible, Project-controlled support, while the RFMF targets larger-scale, sustained maintenance.
+The Project Grants Program ([RFC 3919]) proposes a program supporting a handful of contributors with modest monthly stipends. It charters a Grants team (5 members, LC-appointed, organized as a Launching Pad subteam) to select recipients and oversee the program. The RFC explicitly positions itself as "distinct from, but complementary to" the RFMF: grants are smaller-scale, flexible, Project-controlled support, while the RFMF targets larger-scale, sustained maintenance.
 
 The Grants team's charter overlaps significantly with the Funding team charter we define here — both involve assessing project needs and selecting candidates. The Leadership Council may choose to extend the Grants team with the Funding team's responsibilities rather than creating a separate body, which would avoid fragmenting the Project's attention across multiple committees with overlapping mandates.
 
@@ -305,8 +308,15 @@ The Grants team's charter overlaps significantly with the Funding team charter w
 [unresolved-questions]: #unresolved-questions
 
 ## Organizational form of the Funding team
+[funding-team-org]: #organizational-form-of-the-funding-team
 
-This RFC defines the Funding team's charter — its responsibilities — but leaves the organizational structure to the Leadership Council. The Funding team could be a new team, or it could be an extension of the Grants team proposed in [RFC 3919]. Future possibilities include merging the two teams or generalizing the Funding team into a broader team for supporting Rust teams. We expect the Leadership Council to determine the right organizational form.
+This RFC defines the Funding team's charter — its responsibilities — but leaves the organizational structure to the Leadership Council. There are two main options:
+
+**Extend the Grants team.** The Grants team proposed in [RFC 3919] already has an LC appointment process, selection infrastructure, and conflict-of-interest policies. Extending it avoids fragmenting volunteer attention across overlapping committees.
+
+**Create a new team.** The Funding team's charter is broader than selecting recipients — it includes staying in regular contact with teams, connecting them to resources, and understanding project health holistically. MiR selection is only one part of that mandate. A new team with a broader mandate may be a better fit than extending a team whose focus is choosing grant recipients. There is also a difference in operating cadence: the Grants program has predictable cycles, while the Funding team may need to react promptly when new funding becomes available rather than waiting for the next scheduled round. Current Grants team members may not have signed up for that kind of bandwidth or latency.
+
+We expect the Leadership Council to determine the right organizational form.
 
 # Future possibilities
 [future-possibilities]: #future-possibilities
@@ -315,6 +325,11 @@ This RFC defines the Funding team's charter — its responsibilities — but lea
 
 This RFC defines the interface between the Rust Project and the RFMF specifically, but nothing about the process is inherently RFMF-specific. The Funding team's core service — assessing where dedicated maintainers would have the most impact, evaluating candidates, and selecting the best candidates — could be offered to other funding organizations that want to hire Maintainers in Residence. The value proposition is the same regardless of who's paying: the Project has visibility into which teams are struggling and which candidates have the trust and context to be effective, and funding organizations benefit from that assessment rather than making hiring decisions without it.
 
+## Recording MiR affiliations
+
+If the Rust Project establishes a mechanism for recording affiliations of team members, Maintainers in Residence could record their RFMF funding as an affiliation. This would make funding relationships visible through the same infrastructure used for employer affiliations.
+
 ## Project Goals Funding program
 
-The RFMF provides undirected funding — sponsors contribute to a general fund earmarked to fund Rust maintainers, with the Leadership Council deciding the specific form. There are ongoing plans to propose a Project Goals Funding program that would allow sponsors to direct funding at specific Project Goals. Sponsors would choose goals, roadmaps, or application areas to fund, and the Foundation would issue grants to contributors working on that work. A fixed percentage of directed funding (likely 10% to start) would flow to the Leadership Council's Project Priorities budget, where it can be used to fund maintenance, project management, or other activities. Together, the two programs cover the full spectrum of sponsor needs: undirected funding for those who want to support Rust's overall health, and directed funding for those who want to accelerate specific work.
+The RFMF provides undirected funding — sponsors contribute to a general fund earmarked to fund Rust maintainers, with the Leadership Council deciding the specific form. There are ongoing plans to propose a Project Goals Funding program that would allow sponsors to direct funding at specific Project Goals. Sponsors would choose goals, roadmaps, or application areas to fund, and the Foundation would issue grants to contributors working on that work. A percentage of directed funding would flow to the Leadership Council's Project Priorities budget, where it can be used to fund maintenance, project management, or other activities. Together, the two programs cover the full spectrum of sponsor needs: undirected funding for those who want to support Rust's overall health, and directed funding for those who want to accelerate specific work.
+
