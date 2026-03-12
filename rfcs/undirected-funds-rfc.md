@@ -7,9 +7,9 @@
 
 This RFC defines the relationship between the Rust Foundation Maintainer Fund (RFMF) and the open-source Rust project. The RFMF is a dedicated fund used to support Rust maintenance: open-ended, multiplicative work that improves Rust and its codebase and makes it more accessible.
 
-RFMF funds are directed to the Leadership Council's Project Priorities budget and earmarked for maintainer sponsorship. The Leadership Council is empowered to design programs for using those funds — examples include the program management team and the Project Grants Program ([RFC 3919]), which provides modest stipends to recognize and support existing contributors.
+The Leadership Council has a Project Priorities budget, which is used to fund various initiatives, such as travel grants or program management. RFMF funds will be directed to this budget, but they will be earmarked for maintainer sponsorship. That means that they can be used only for activities that directly support Rust Project maintainers, which might include the program management program or the Project Grants Program ([RFC 3919]), which provides modest stipends to recognize and support existing contributors. We propose a new funding program for supporting maintainers described below, which should be the primary target of these earmarked funds.
 
-This RFC adds a new program: Maintainers in Residence (MiR). Maintainers in Residence work full-time (or close to full-time) on some part of the Rust project — reviews, design guidance, mentorship, refactoring, and the kind of sustained technical work that volunteers can't commit to. Their time is split roughly 50/50: half on priorities selected by team leads in their area of focus, half on priorities of their own choosing within the project.
+This RFC adds a new program: Maintainers in Residence (MiR). Maintainers in Residence work full-time (or close to full-time) on some part of the Rust project — reviews, design guidance, mentorship, refactoring, and the kind of sustained technical work that volunteers can't commit to. Their time is split roughly 50/50: half on priorities guided by team leads in their area of focus, half on priorities of their own choosing within the project.
 
 This RFC defines a Funding team charter to govern MiR selection: staying in contact with teams to understand their needs and working with the Foundation to identify and vet candidates. The Funding team and Foundation collaborate on the hiring decision; the Foundation handles contracting, compensation, and sponsor relations. We leave it to the Leadership Council to decide whether the Funding team should be merged with the Grants team proposed in [RFC 3919] or kept separate, as the Funding team's responsibilities would be a substantial increase in scope.
 
@@ -102,7 +102,7 @@ This RFC defines a set of responsibilities we call the "Funding team" charter: s
 
 ## Sustained positions with balanced expectations
 
-Maintainers in Residence split their time roughly 50/50: half on team priorities (whatever the team needs most), half on individual priorities of their choosing within the project. This split is about team-directed vs. self-directed, not "maintenance vs. features." The PSF's experience after nearly five years confirms that allowing this balance "made all the difference" — pure maintenance work becomes draining over time. See [Maintainer in Residence expectations](#maintainer-in-residence-expectations) for details.
+Maintainers in Residence split their time roughly 50/50: half on team priorities (whatever the team needs most), half on individual priorities of their choosing within the project (with the expectation that most of it will be near the designated area). This split is about team-directed vs. self-directed, not "maintenance vs. features." The PSF's experience after nearly five years confirms that allowing this balance "made all the difference" — pure maintenance work becomes draining over time. See [Maintainer in Residence expectations](#maintainer-in-residence-expectations) for details.
 
 # Reference-level explanation
 [reference-level-explanation]: #reference-level-explanation
@@ -240,7 +240,7 @@ See the ["Who manages MiR"][who-manages-mirs] question.
 
 ## What about people who only want to work part time?
 
-Maintainers in Residence can work substantial part-time — the key requirement is enough concentrated time to build and maintain deep context, not necessarily a 40-hour week. Some areas may not need a full person's time, and it's fine to have one person cover two areas or two people each contribute part-time to a single area. For contributors who want lighter-touch support, the LC's Project Grants Program ([RFC 3919], $1,500/month) is designed for exactly that. The two programs are complementary: grants support a broad base of contributors; the RFMF funds sustained maintenance work from people with deep context.
+Maintainers in Residence can work substantial part-time — the key requirement is enough concentrated time to build and maintain deep context, not necessarily a 40-hour week. Some areas may not need a full person's time, and it's fine to have one person cover two areas or two people each contribute part-time to a single area. For contributors who want lighter-touch support, the LC's Project Grants Program ([RFC 3919], ~$1,500/month) is designed for exactly that. The two programs are complementary: grants support a broad base of contributors; the RFMF funds sustained maintenance work from people with deep context.
 
 ## What about sponsors who want to pay for a particular item to get done?
 
@@ -295,7 +295,7 @@ Two aspects of the Scala Center model have been particularly influential on this
 
 The Scala Center employs engineers directly as university employees, which provides stability but depends on university infrastructure. That structural detail doesn't transfer to Rust, but the pool-funding model and sponsor engagement approach do. The Scala Center demonstrates that sponsors will contribute to a general fund without earmarking, provided they get meaningful engagement in return.
 
-## TC's Project Grants Program: a related committee model
+## Project Grants Program: a related committee model
 
 The Leadership Council's Project Grants Program ([RFC 3919]) proposes a $100K program supporting ~5 contributors at $1,500/month. It charters a Grants team (5 members, LC-appointed, organized as a Launching Pad subteam) to select recipients and oversee the program. The RFC explicitly positions itself as "distinct from, but complementary to" the RFMF: grants are smaller-scale, flexible, Project-controlled support, while the RFMF targets larger-scale, sustained maintenance.
 
