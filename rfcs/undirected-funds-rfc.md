@@ -13,7 +13,7 @@ This RFC adds a new program: Maintainers in Residence (MiR). Maintainers in Resi
 
 Selecting Maintainers in Residence is a collaboration between the Foundation and a "Funding team" appointed by the Leadership Council. This Funding team will weigh the set of applications against the project's needs and priorities.
 
-The Funding team is additionally charged with ensuring the program's overall success. When sponsors contribute undirected funding, they are investing in the Rust project as a whole — and the project should meet them in good faith. The rest of the project is expected to help the Funding team manage sponsor relations, e.g., by meeting with sponsors or providing other reasonable sponsor benefits.
+The Funding team is additionally charged with ensuring the program's overall success. When sponsors contribute undirected funding, they are investing in the Rust project as a whole — and the project should meet them in good faith. Project teams receiving support from the program are expected to help the Funding team manage sponsor relations, e.g., by meeting with sponsors or providing other reasonable sponsor benefits.
 
 [RFC 3919]: https://github.com/rust-lang/rfcs/pull/3919
 
