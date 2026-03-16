@@ -9,7 +9,7 @@ This RFC defines the relationship between the Rust Foundation Maintainer Fund (R
 
 The Leadership Council has a Project Priorities budget, which is used to fund various initiatives, such as travel grants or program management. RFMF funds will be directed to this budget, but they will be earmarked for maintainer sponsorship. That means that they can be used only for activities that directly support Rust Project maintainers, which might include the program management program or the Project Grants Program ([RFC 3919]), which provides modest stipends to recognize and support existing contributors. We propose a new funding program for supporting maintainers described below, which should be the primary target of these earmarked funds.
 
-This RFC adds a new program: Maintainers in Residence (MiR). Maintainers in Residence have dedicated time to focus on some part of the Rust project. Their time is split between priorities guided by the teams they are supporting and priorities of their own choosing within the project.
+This RFC adds a new program: Maintainer in Residence (MiR). Maintainers in Residence have dedicated time to focus on some part of the Rust project. Their time is split between priorities guided by the teams they are supporting and priorities of their own choosing within the project.
 
 Selecting Maintainers in Residence is a collaboration between the Foundation and a "Funding team" appointed by the Leadership Council. This Funding team will weigh the set of applications against the project's needs and priorities.
 
@@ -24,7 +24,7 @@ The Rust Foundation is establishing a Maintainer Fund to collect sponsorships an
 
 Our primary recommendation is that these funds should be used to hire maintainers — called "Maintainers in Residence" — on a full-time or substantial part-time basis, though the Council retains flexibility to deploy funds in other forms such as project grants.
 
-## Why sustained maintainers in residence?
+## Why focus on long-term maintenance?
 
 In preparing this recommendation, we interviewed team leads across the Project. The message was clear: *"what's needed is people with the focus to drive longer-scale projects."* Volunteer maintenance keeps the lights on, but larger-scale work — clearing review backlogs, driving cross-cutting refactors, carrying context across a complex codebase — stalls because nobody has the sustained focus to push it through. As one (volunteer) team lead said, *"All the time that reviewers have goes into reviewing, triaging, and so on, and then the interesting longer-term projects just fall under the table."*
 
@@ -61,7 +61,7 @@ Part of the value proposition for sponsors is that they don't have to learn the 
 # Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
 
-The RFMF collects sponsorships from companies and individuals. Funds support project grants, project management, and the flagship program: Maintainers in Residence — experienced, self-directed maintainers who do the work that keeps Rust healthy. They participate in team discussions, review PRs, mentor newcomers, and work on what the team needs.
+The RFMF collects sponsorships from companies and individuals. Funds support project grants, project management, and the Maintainer in Residence program. Maintainers in Residence are experienced, self-directed maintainers who do the work that keeps Rust healthy. They participate in team discussions, review PRs, mentor newcomers, and work on what the team needs.
 
 ## Design axioms
 
@@ -135,7 +135,7 @@ The Funding team's role is to keep a pulse on the project and work with the Foun
 
 The Foundation supports the Funding team with logistics. The Foundation issues contracts or manages employment. They provide managerial support to convey feedback.
 
-We expect that initially this managerial work can be managed by existing Foundation staff. If the program grows to a large number of MiR, however, we recommend that the Leadership Council use some portion of the RFMF funds to hire a dedicated manager who would work closely with the Funding team (see [Who manages Maintainers in Residence after they're hired?][who-manages-mirs]).
+We expect that initially this managerial work can be managed by existing Foundation staff. If the program grows to a large number of MiRs, however, we recommend that the Leadership Council use some portion of the RFMF funds to hire a dedicated manager who would work closely with the Funding team (see [Who manages Maintainers in Residence after they're hired?][who-manages-mirs]).
 
 Beyond individual hiring decisions, the Funding team has ownership of the program's long-term health: apportioning available funds across positions, ensuring that funded work gets reported on, demonstrating return on investment to sponsors, and sustaining and growing the program over time. The RFC specifies the inputs and constraints for these decisions — project needs, team health, sponsor priorities, candidate qualifications — but delegates the decision process itself to the team, which is expected to operate transparently and document how it makes decisions.
 
