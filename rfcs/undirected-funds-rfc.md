@@ -67,11 +67,13 @@ The RFMF collects sponsorships from companies and individuals. Funds support pro
 
 ### The RFMF is a collaboration between the Project and the Foundation
 
-The Project brings knowledge of team health and needs; the Foundation brings logistics, sponsor relationships, and operational capacity. The Funding team (see below) identifies which areas need support and works with the Foundation to select candidates. The Foundation is involved in the hiring decision and handles contracting, compensation, and sponsor relations. This is a partnership, not a handoff — both sides contribute throughout.
+Neither the Foundation nor the Project can operate the RFMF on their own. The Foundation has a bank account, legal entity, and operational capacity, the Project has knowledge of team health and needs. The Foundation is the incoming channel by which most sponsors arrive, but the Project governs the codebase that sponsors want to support. This RFC proposes that both project members (the Funding team) and Foundation staff jointly make major decisions. This is a partnership, not a handoff.
 
-### The Project helps maintainers demonstrate their impact
+### The Funding team owns the program's success, but they can't do it alone
 
-Sponsor engagement is not something Maintainers in Residence do alone — the Leadership Council, team leads, and MiRs all participate. The Project provides scaffolding — goals, program management, reporting infrastructure — so maintainers can focus on the work while sponsors get visibility into outcomes. See [What sponsors get][] for details. Sponsor engagement does not imply that any technical decisions (RFC approvals, PR reviews, design choices) should be made differently than they would be otherwise.
+Together with Foundation staff, the Funding team owns sponsor relations and program success. As the team that selects maintainers and understands project needs, they're best positioned to communicate with sponsors about outcomes and priorities. However, they need support from the broader project — team leads providing updates, maintainers participating in sponsor meetings, and project infrastructure for reporting.
+
+Sponsor engagement does not imply that any technical decisions (RFC approvals, PR reviews, design choices) should be made differently than they would be otherwise.
 
 ### Maintainers are team members
 
