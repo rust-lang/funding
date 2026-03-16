@@ -77,7 +77,7 @@ Sponsor engagement does not imply that any technical decisions (RFC approvals, P
 
 ### Maintainers are team members
 
-Maintainer in Residence candidates must be established members of the Rust Project who either are already members of the relevant team(s) or have been approved by the team to become a member upon starting their MiR role. They need the permissions required for the work — reviewing PRs, championing goals, and performing actions limited to official team members. This is a hard requirement, not just an expectation. 
+Maintainer in Residence candidates must be established members of the Rust Project who either are already members of the relevant team(s) or have been approved by the team(s) to become a member upon starting their MiR role. They need the permissions required for the work — reviewing PRs, championing goals, and performing actions limited to official team members. This is a hard requirement, not just an expectation. 
 
 For candidates who are not yet members of the target team, the team must confirm they are willing to add the candidate as a member. In cases where a team is defunct, the parent team(s) can invite the candidate to join and help revive the team.
 
