@@ -7,9 +7,9 @@
 
 This RFC defines the relationship between the Rust Foundation Maintainer Fund (RFMF) and the open-source Rust project. The RFMF is a dedicated fund used to support Rust maintenance: open-ended, multiplicative work that improves Rust and its codebase and makes it more accessible.
 
-The Leadership Council has a Project Priorities budget, which is used to fund various initiatives, such as travel grants or program management. RFMF funds will be directed to this budget, but they will be earmarked for maintainer sponsorship. That means that they can be used only for activities that directly support Rust Project maintainers, which might include the program management program or the Project Grants Program ([RFC 3919]), which provides modest stipends to recognize and support existing contributors. We propose a new funding program for supporting maintainers described below, which should be the primary target of these earmarked funds.
+The Leadership Council has a Project Priorities budget, which is used to fund various initiatives, such as travel grants or program management. RFMF funds will be directed to this budget, but they will be earmarked for activities that direct funding directly to individual maintainers. This includes the existing program management program and would include the proposed Project Grants Program ([RFC 3919]), which provides modest stipends to recognize and support existing contributors.
 
-This RFC adds a new program: Maintainer in Residence (MiR). Maintainers in Residence have dedicated time to focus on some part of the Rust project. Their time is split between priorities guided by the teams they are supporting and priorities of their own choosing within the project.
+This RFC additionally proposes a third program, the Maintainer in Residence program, dedicated to hiring long-term maintainers and funding their maintenance work in full. Maintainers' in Residence time is split between priorities guided by the teams they are supporting and priorities of their own choosing within the project.
 
 Selecting Maintainers in Residence is a collaboration between the Foundation and a "Funding team" appointed by the Leadership Council. This Funding team will weigh the set of applications against the project's needs and priorities.
 
