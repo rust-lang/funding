@@ -77,7 +77,11 @@ Sponsor engagement does not imply that any technical decisions (RFC approvals, P
 
 ### Maintainers are team members
 
-Maintainer in Residence candidates must already be members of the relevant Rust team(s) with the permissions needed for the work — reviewing PRs, championing goals, and performing actions limited to official team members. This is a hard requirement, not just an expectation. Funded maintainers are not a separate class of contributor — they're existing team members who can now commit sustained time.
+Maintainer in Residence candidates must be established members of the Rust Project who either are already members of the relevant team(s) or have been approved by the team to become a member upon starting their MiR role. They need the permissions required for the work — reviewing PRs, championing goals, and performing actions limited to official team members. This is a hard requirement, not just an expectation. 
+
+For candidates who are not yet members of the target team, the team must confirm they are willing to add the candidate as a member. In cases where a team is defunct, the parent team(s) can invite the candidate to join and help revive the team.
+
+Funded maintainers are not a separate class of contributor — they're project members who can now commit sustained time to team responsibilities.
 
 ### Not one size fits all
 
@@ -137,7 +141,7 @@ Beyond individual hiring decisions, the Funding team has ownership of the progra
 
 ## Application and vetting process
 
-The process of contracting a new Maintainer in Residence begins with an open call for applications. Any member of a Rust team or person to whom team membership has been offered can apply — broad applications help surface needs and candidates the Funding team might not have identified on its own.
+The process of contracting a new Maintainer in Residence begins with an open call for applications. Any established member of the Rust Project can apply, whether they are already members of the relevant team(s) or would need team approval to join. Broad applications help surface needs and candidates the Funding team might not have identified on its own.
 
 Applicants provide (1) their background and experience — both within the Rust project and professionally; (2) their availability (full-time, part-time, etc); and (3) a high-level description of the kind of work they would like to do. This description can be quite general (e.g., "maintain rustfmt") but could also be specific (e.g., "split project `foo` into multiple independent libraries `bar` and `baz`").
 
