@@ -87,10 +87,10 @@ Funded maintainers are not a separate class of contributor — they're project m
 
 The RFMF doesn't try to be the sole channel for funding Rust maintenance. The Maintainer in Residence program fills a specific role: allowing project teams to select and direct maintainers toward the areas they identify as most critical. Other structures — the proposed Project Goals Funding program for directed grants (see [Future possibilities][]), the Project Grants Program for contributor stipends, the Rust-Analyzer Open Collective, the proposed RustNL Maintainer Fund, company employment — serve complementary roles.
 
-## What sponsors get
-[what-sponsors-get]: #what-sponsors-get
+## Sponsor benefits
+[sponsor-benefits]: #sponsor-benefits
 
-RFMF sponsors contribute to a general fund and don't direct where the money goes or who gets hired. Every contribution helps fund the sustained maintenance that keeps Rust healthy. All sponsors receive public recognition and visibility into how funds are being used through regular public reports.
+RFMF sponsors typically contribute to a general fund and don't direct where the money goes or who gets hired (though hiring a maintainer in a specific area may also be an option if the sponsor is willing to cover the full cost, see the [Sponsor benefits][] section). Every contribution helps fund the sustained maintenance that keeps Rust healthy. All sponsors receive public recognition and visibility into how funds are being used through regular public reports.
 
 The Foundation should establish sponsorship tiers to encourage larger contributions and year-over-year commitment, as sustained sponsorship permits more stability for the program.
 
