@@ -88,13 +88,16 @@ The RFMF doesn't try to be the sole channel for funding Rust maintenance. The Ma
 
 RFMF sponsors contribute to a general fund and don't direct where the money goes or who gets hired. Every contribution helps fund the sustained maintenance that keeps Rust healthy. All sponsors receive public recognition and visibility into how funds are being used through regular public reports.
 
-The Foundation should establish sponsorship tiers to encourage larger contributions and year-over-year commitment, as sustained sponsorship permits more stability for the program. The specific tiers are best determined over time by the Foundation and Funding team, but they could include benefits like the following:
+The Foundation should establish sponsorship tiers to encourage larger contributions and year-over-year commitment, as sustained sponsorship permits more stability for the program.
+
+**This RFC does not specify tiers or associated benefits.** However, we give examples of benefits that the Funding team may opt to use. This is not meant to be an exclusive list, the Funding team may have new ideas that are not on this list; the list is instead meant to give a sense for the *kinds* of benefits that are reasonable:
 
 * **Sponsor meetings.** The Foundation builds a community of sponsoring organizations that meets with project leadership (Leadership Council, team leads) and Maintainers in Residence a few times a year to discuss project direction, sponsor experiences, and pain points. Project leadership gains insight into the needs of major Rust users; sponsors get visibility into the roadmap and the opportunity to hear from other Rust-adopting companies.
 * **Impact reporting.** Regular reports on what funded maintainers are working on, progress on Project Goals, and how the program is contributing to Rust's health. These reports are prepared with help from the program management team and made publicly available.
-* **Best-effort attention.** Sponsors can reach out to the Foundation or project contacts about PRs or bugs that need attention. There is no SLA or guarantee — any maintainer would bump a bug report from an active user, and sponsors can reasonably expect the same consideration.
-
-These are reasonable expectations that don't compromise the Project's independence — they represent the kind of engagement any healthy open-source project should provide to its supporters.
+* **Prioritized review and bug fixes.** Sponsors can reach out to the Foundation or project contacts about PRs or bugs that need attention, up to a certain frequency that is dependent on funding tier. This provides the sponsor with a form of "insurance" that they will get help resolving priority issues they encounter with Rust; however, this prioritization should be limited to small-scope fixes or reviews, not to larger feature development, and is in no way a promise that a PR will be *merged* (simply reviewed).
+* **Prioritization for goal championing.** Sponsors who have proposed project goals might be able to request that teams use an affiliated MiR to champion their goals. If teams have concerns about the goals, they are not obligated to oblige these requests.
+* **Area preferences for major sponsors.** If a sponsor or group of sponsors is willing to fund the entire cost of a MiR but only in a specific area, the Funding team could work with them to find a candidate for that particular area.
+    * For example, if a sponsor would specifically like to fund a cargo or rustfmt maintainer, the Funding team could work with them to make that happen. The role would still be a MiR like any other, following the same processes.
 
 *What sponsors do not get:* the ability to unilaterally direct a maintainer's work, pick who gets hired, pick who gets added to project teams, bypass project processes, or influence technical decisions.
 
