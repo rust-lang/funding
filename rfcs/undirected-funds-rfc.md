@@ -50,7 +50,7 @@ The third category is companies that employ developers or contributors working f
 
 For companies that depend on Rust, what matters most is knowing that the daily work of the project continues — that good ideas won't wither on the vine for lack of reviewer bandwidth, and that bugs will be fixed promptly, particularly bugs they themselves are hitting. Sponsoring the maintainer fund is a direct investment in that capacity.
 
-For the fund to be sustainable, sponsors also need to be able to report the impact of their contributions. This means the project needs to treat demonstrating impact as a whole-project responsibility, not something that falls on Maintainers in Residence alone. See [What sponsors get][] for concrete details on what we envision.
+For the fund to be sustainable, sponsors also need to be able to report the impact of their contributions. This means the project needs to treat demonstrating impact as a whole-project responsibility, not something that falls on Maintainers in Residence alone. See [Sponsor benefits][] for concrete details on what we envision.
 
 ## Why the Project should drive the selection
 
