@@ -168,7 +168,7 @@ In advance of contract renewal, the Foundation will consult with the Funding tea
 
 Maintainers in Residence are expected to spend 100% of their funded time working to improve the Rust project. That funded time can be split between:
 
-* **Team priorities** — items that are prioritized by the team(s) that the maintainer belongs to. This includes reviews, mentoring, bug-fixing, triage, and larger development work like refactors or subsystem rewrites.
+* **Team priorities** — items that are prioritized by the team(s) that the maintainer was specifically hired to contribute to. This includes reviews, mentoring, bug-fixing, triage, and larger development work like refactors or subsystem rewrites.
 * **Self-selected items** — work of the individual's choosing.
 
 We expect an approximately 50/50 split between these two, but the exact split will vary depending on the individual, their experience, and the needs of the team. The Funding team should monitor and make sure that team priorities are being adequately served, while also ensuring that MiR have the opportunity to pursue self-selected work. If both cannot be done, that likely indicates the need for another MiR in that area.
