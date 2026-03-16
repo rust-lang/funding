@@ -156,10 +156,9 @@ The Funding team prioritizes applications based on:
 
 The Funding team works with the Foundation to select from the applicant pool and to extend offers. The Funding team is looking for maintainers that have technical depth in the relevant area, community standing and trust within the Project, and sustained work orientation (a track record that suggests they'll thrive in a role focused on reviews, mentorship, unblocking, and the kind of long-term technical work that requires deep context).
 
-
 ## Contract terms and renewal
 
-The precise terms of the arrangement are not defined by this RFC. The arrangement is likely to begin as year-long contracts but may change to other durations, regular employment, or vary by locale. The important points are: it is a **substantial commitment** (full-time or significant part-time), and it is expected to **continue as long as both sides are satisfied and funding is available**. Some areas may not require a full person's time; it is fine to have one person cover two areas, or two people each contribute part-time to a single area, so long as there is enough concentrated time to build and maintain deep context.
+The precise terms of the working arrangement are not defined by this RFC. The important points are: it is a **substantial commitment** (full-time or significant part-time), and it is expected to **continue (or be renewed) as long as both sides are satisfied and funding is available**. Some areas may not require a full person's time; it is fine to have one person cover two areas, or two people each contribute part-time to a single area, so long as there is enough concentrated time to build and maintain deep context.
 
 Compensation should be a flat rate within a small number of bands (e.g., junior and senior), rather than individually negotiated. Flat rates keep the program simple and avoid the perception that some maintainers are valued more than others for equivalent work. The compensation structure is publicly advertised as part of the call for applications. The Foundation determines the specific rates and may adjust them over time as the program learns what works and what's needed to attract strong candidates.
 
@@ -199,12 +198,11 @@ Requests that go beyond this — "develop this feature" or "devote sustained tim
 
 ## Reporting and impact visibility
 
+While MiR are expected to help collect data for reporting, they will be supported by the project's other infrastructure. The goal is that they can focus on doing maintenance and only have minimal reporting requirements.
 
-While MiR are expected to help collect data for reporting, they will be supported by the project, and the overall reporting expectations should not be substantively more onerous than for volunteer contributors. The point is to reduce burden, not add it.
+The project supports MiRs in reporting their impact in the following ways:
 
-Examples of project support include:
-
-* The program management team will prepare an initial draft by examining GitHub activity (PR reviews, etc.) and via updates on Project Goals championed by the maintainer.
+* The program management team will prepare an initial draft of MiR activity by examining GitHub activity (PR reviews, etc.) and via updates on Project Goals championed by the maintainer.
 * The Content team will interview maintainers and highlight their work.
 
 Program managers collect progress updates from goal owners (funded or not) on a regular cadence and prepare summaries. For funded maintainers, these summaries serve double duty: they give the Project visibility into goal progress, and the Foundation can use them to prepare sponsor-facing reports.
@@ -218,8 +216,6 @@ If a maintainer is not performing well, Foundation staff are expected to provide
 As the program grows, we may wish to transition this role from a responsibility of the Foundation staff to a dedicated manager working within the project. See [the FAQ on this topic.][who-manages-mirs]
 
 Separately, Code of Conduct violations that result in removal from the Project immediately terminate the contract. Team membership is a hard requirement for the role; a maintainer who is no longer a project member cannot continue as a Maintainer in Residence.
-
-The Project does not decide whether a contract gets renewed; it provides input.
 
 # Frequently asked questions
 [faq]: #faq
