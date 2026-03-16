@@ -173,7 +173,9 @@ Maintainers in Residence are expected to spend 100% of their funded time working
 * **Team priorities** — items that are prioritized by the team(s) that the maintainer was specifically hired to contribute to. This includes reviews, mentoring, bug-fixing, triage, and larger development work like refactors or subsystem rewrites.
 * **Self-selected items** — work of the individual's choosing.
 
-We expect an approximately 50/50 split between these two, but the exact split will vary depending on the individual, their experience, and the needs of the team. The Funding team should monitor and make sure that team priorities are being adequately served, while also ensuring that MiR have the opportunity to pursue self-selected work. If both cannot be done, that likely indicates the need for another MiR in that area.
+Experience with the Python Developer-in-Residence program suggests that for long-term satisfaction, it's important that maintainers be given time to pursue self-selected projects. We've also seen over time that maintainers often develop good instincts for what would generally benefit Rust, and thus self-selected "passion projects" can turn into some of Rust's most impactful features.
+
+The split between team priorities and self-selected work will depend on the individual. The Funding team should monitor and make sure that team priorities are being adequately served, while also ensuring that MiRs have the opportunity to pursue self-selected work. If both cannot be done, that likely indicates the need for another MiR in that area.
 
 Maintainers in Residence are also expected to:
 
