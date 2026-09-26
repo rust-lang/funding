@@ -1,5 +1,3 @@
-# Welcome to the homepage for the T-funding team!
+# Welcome to the homepage of the Funding team!
 
-We are still in bootstrap mode.
-
-You can learn more about the team here.
+You can find the team charter [here](charter.md).
