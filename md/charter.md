@@ -44,9 +44,9 @@ When the team membership is updated, we suggest for the members who are stepping
 
 Members of the Funding team must be, and remain, in good standing with the Rust Project. The moderation team should be consulted prior to adding a new member to the Funding team.
 
-The Funding team has a special and tight relationship with the Rust Foundation, which handles the funding budget, contracting, legal matters and the Rust Foundation Maintainers Fund, which is the primary source of funds that the Funding team works with. Because of that, at least one member of the Funding team should always come from the Rust Foundation, to streamline communication with the Rust Foundation and provide better insight into financial and budgeting matters.
+The Funding team has a special and tight relationship with the Rust Foundation, which handles the funding budget, contracting, legal matters and the Rust Foundation Maintainers Fund, which is the primary source of funds that the Funding team works with. Because of that, at least one member of the Funding team always has to come from the Rust Foundation, to streamline communication with the Rust Foundation and provide better insight into financial and budgeting matters.
 
-The Council should also consider having at least one member of the Funding team be a part of the Project's governance (either a Council member or a Project Director), to facilitate communication between the Funding team and the governing bodies of the Rust Project.
+The Council is also encouraged t consider having at least one member of the Funding team be a part of the Project's governance (either a Council member or a Project Director), to facilitate communication between the Funding team and the governing bodies of the Rust Project.
 
 The Funding team selects its lead(s) amongst themselves.
 
