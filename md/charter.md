@@ -66,13 +66,18 @@ For more details about affiliation limits, see the [Leadership Council Affiliati
 
 Given that the Funding team members are themselves members of the Rust Project, they might be interested in being financially supported by the Funding team. Amongst other things, this could actually help their Funding work itself, as it can be quite time intensive.
 
-However, it is also of course a clear conflict of interest. We instate the following rule to lessen (though not completely remove) this conflict of interest.
+However, it is also of course a clear conflict of interest. We instate the following rules to lessen (though not completely remove) this conflict of interest.
 
-Funding team members may ask to be financially supported by the Funding team, but they cannot vote on themselves and have to abstain from all decisions made about the funded role that they are applying to, or being considered for.
+Funding team members may ask to be financially supported by the Funding team for a specific role (e.g. being a MiR for team `X`), but this comes with caveats:
+- They must not vote on themselves.
+- They must not privately discuss the role that they are actively applying (or being considered) for.
+- They must abstain from all decisions made about the role that they are actively applying (or being considered) for. This includes decisions whether the given role (or supported team) should be prioritized against other considered roles.
 
-Additionally, each decision to financially support a Funding team member by the Funding team has to be explicitly approved by the Leadership Council prior to being finalized. If the candidate to be funded is also a member of the Leadership Council, they have to abstain from this approval.
+Additionally, if the Funding team decides to financially support a member of the Funding team, that decision has to be explicitly approved by the Leadership Council prior to being finalized. If the candidate to be funded is also a member of the Leadership Council, they have to abstain from this approval.
 
-The Funding team primarily decides which *teams* to support, and only then should they look for candidates that could support those teams. When making those decisions, they should strive to decide as if the Funding team member candidate was any other Project member.
+The Funding team is also encouraged to discuss decisions to fund its member(s) with the broader Rust Project, to gather feedback on it.
+
+Note that the Funding team primarily decides which *teams* to support, and only then should they look for candidates that could support those teams. When making those decisions, they should strive to decide as if the Funding team member candidate was any other Project member.
 
 ### Conflicts of interest rule rationale
 
