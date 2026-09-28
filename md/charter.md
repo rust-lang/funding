@@ -70,7 +70,7 @@ However, it is also of course a clear conflict of interest. We instate the follo
 
 Funding team members may ask to be financially supported by the Funding team for a specific role (e.g. being a MiR for team `X`), but this comes with caveats:
 - They must not vote on themselves.
-- They must not privately discuss the role that they are actively applying (or being considered) for.
+- They must not privately discuss the role that they are actively applying for (or being considered for) with the funding team, funding team advisers, or Leadership Council.
 - They must abstain from all decisions made about the role that they are actively applying (or being considered) for. This includes decisions whether the given role (or supported team) should be prioritized against other considered roles.
 
 Additionally, if the Funding team decides to financially support a member of the Funding team, that decision has to be explicitly approved by the Leadership Council prior to being finalized. If the candidate to be funded is also a member of the Leadership Council, they have to abstain from this approval.
