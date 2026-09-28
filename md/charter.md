@@ -46,7 +46,7 @@ Members of the Funding team must be, and remain, in good standing with the Rust 
 
 The Funding team has a special and tight relationship with the Rust Foundation, which handles the funding budget, contracting, legal matters and the Rust Foundation Maintainers Fund, which is the primary source of funds that the Funding team works with. Because of that, at least one member of the Funding team always has to come from the Rust Foundation, to streamline communication with the Rust Foundation and provide better insight into financial and budgeting matters.
 
-The Council is also encouraged t consider having at least one member of the Funding team be a part of the Project's governance (either a Council member or a Project Director), to facilitate communication between the Funding team and the governing bodies of the Rust Project.
+The Council is also encouraged to consider having at least one member of the Funding team be a part of the Project's governance (either a Council member or a Project Director), to facilitate communication between the Funding team and the governing bodies of the Rust Project.
 
 The Funding team selects its lead(s) amongst themselves.
 
