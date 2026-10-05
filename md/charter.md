@@ -3,12 +3,20 @@
 The goal of the Funding team is to improve the overall health and long-term sustainability of the Rust Project and its teams, primarily by financially supporting Project team members for their upstream maintenance work.
 
 Its primary high-level duties are to:
-- Communicate with Rust Project teams and contributors to figure out their funding needs.
+- Communicate with Rust Project teams and maintainers to figure out their funding needs.
 - Distribute available funds to financially support Rust Project maintainers.
 - Communicate with funders and promote the work of supported maintainers to help find and keep sustainable funding.
 - Work transparently and in public as much as possible, unless the discussion cannot be made public due to private details.
 
 The Funding team has to make difficult choices about who to financially support, as often there are several great choices, but not enough funds to support all of them. It should strive to make decisions that will be the best for the overall health of the Rust Project and its teams.
+
+## Scope of the funding
+
+In terms of scope, the Funding team is focused specifically on funding members of the Rust Project for their maintenance work on the Rust toolchain. While that might include also some development of new features, that is typically not the primary goal of the funding that the team provides; funding large-scale feature development is under the scope of Rust [Project Goals][goals].
+
+The words Rust Project contributors and maintainers are used interchangeably within this document. They refer to members of the Rust Project who contribute to the Rust toolchain (i.e. projects and repositories under the `rust-lang` and related GitHub organizations).
+
+## Activities of the team
 
 Below is a non-exhaustive list of activities that the team is expected to perform to fulfill those duties:
 - Communicate with Rust Project teams to learn about their maintenance needs and other kinds of desired support.
@@ -22,7 +30,7 @@ Below is a non-exhaustive list of activities that the team is expected to perfor
 - Provide funding suggestions to external maintainer funds or companies interested to hire maintainers themselves, to help steer funds not managed by the Funding team itself towards the betterment of the Rust Project. The Funding team may also pool funds with such funding entities to co-fund Rust Project contributors.
 - Help finding long-term sustainable funding and new funding sources to sustain Rust Project contributors, for example by coordinating promotional fundraisers together with the Rust Foundation.
 - Responsibly manage the available budget and the funds from the Rust Foundation Maintainers Fund, to ensure long-term sustainable funding for Rust Project contributors.
-- Communicate with the [goals][t-goals] teams to ensure that maintainers are properly supported to provide reviews and maintenance of accepted Rust Project Goals.
+- Communicate with the [goals][t-goals] teams to ensure that maintainers are properly supported to provide reviews and maintenance of accepted Rust [Project Goals][goals].
 - Work in the open, unless the discussion requires privacy (for example personal or hiring, funders' interests, etc.), by sharing its meeting notes publicly and proactively sharing their plans with Rust Project members.
 - Publicly document its decision-making processes, funding decision rationale and funding program details.
 - Be open to feedback about their processes and funding decisions, in particular from other Rust Project members.
@@ -31,6 +39,7 @@ Below is a non-exhaustive list of activities that the team is expected to perfor
 [rfmf-rfc]: https://rust-lang.github.io/rfcs/3931-rfmf-rust-foundation-maintainer-fund.html
 [grants]: https://github.com/rust-lang/leadership-council/issues/301
 [t-goals]: https://rust-lang.org/governance/teams/#team-goals
+[goals]: https://goals.rust-lang.org
 
 Given the amount of influence that the Funding team holds, due to being responsible for dispersing funds amongst Rust Project members, its membership and affiliation rules are more complex than for most other Rust teams. This charter thus also documents several rules below.
 
