@@ -113,4 +113,4 @@ Given the amount of influence that the Funding team has, it has a special relati
 - The Leadership Council determines the membership of the Funding team.
 - The Leadership Council has to approve (as noted above in [Conflicts of interest](#conflicts-of-interest)) any funding that the team allocates to a member of the Funding team itself or to a member of the Leadership Council.
 
-The Funding team also has to report its budget (i.e. how much money it has and expects to spend in the following year) and funding status (how are MiRs happy with their role, what is the status of finding new funding sources, etc.) many it plans periodically, at least once a year. So that the Council can take these things into account when planning its own Project Priorities budget.
+The Funding team also has to report its budget (i.e. how much money it has and expects to spend in the following year) and funding status (how are MiRs happy with their role, what is the status of finding new funding sources, etc.) periodically, at least once a year. So that the Council can take these things into account when planning its own Project Priorities budget.
