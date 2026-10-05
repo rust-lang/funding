@@ -16,8 +16,8 @@ Below is a non-exhaustive list of activities that the team is expected to perfor
 - Distribute available funds to financially support Rust Project contributors, based on evaluating the most pressing maintenance needs of Rust Project teams.
 - Ensure the success of, and run, the Maintainer in Residence program, as defined by [RFC #3931][rfmf-rfc].
 - Support Rust Project contributors via [grants].
-- Ensure that funded Rust Project contributors are satisfied with their arrangement, are not blocked from doing their designed work, and are not under undue pressure from funders.
-- Promote the work of funded Rust Project contributors and its positive effect on the Rust Project to attract more funding, for example by writing blog posts or recording podcasts or videos.
+- Ensure that Rust Project contributors funded by this team are satisfied with their arrangement, are not blocked from doing their designed work, and are not under undue pressure from funders.
+- Promote the work of Rust Project contributors funded by this team and its positive effect on the Rust Project to attract more funding, for example by writing blog posts or recording podcasts or videos.
 - Communicate with funders (both companies and individuals) to find new funding opportunities and ensure that they are satisfied with the way their provided funds are being spent.
 - Provide funding suggestions to external maintainer funds or companies interested to hire maintainers themselves, to help steer funds not managed by the Funding team itself towards the betterment of the Rust Project. The Funding team may also pool funds with such funding entities to co-fund Rust Project contributors.
 - Help finding long-term sustainable funding and new funding sources to sustain Rust Project contributors, for example by coordinating promotional fundraisers together with the Rust Foundation.
