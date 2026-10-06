@@ -31,6 +31,7 @@ Below is a non-exhaustive list of activities that the team is expected to perfor
 - Help finding long-term sustainable funding and new funding sources to sustain Rust Project contributors, for example by coordinating promotional fundraisers together with the Rust Foundation.
 - Responsibly manage the available budget and the funds from the Rust Foundation Maintainers Fund, to ensure long-term sustainable funding for Rust Project contributors.
 - Communicate with the [goals][t-goals] teams to ensure that maintainers are properly supported to provide reviews and maintenance of accepted Rust [Project Goals][goals].
+- Serve as a point of contact for various funding initiatives related to Rust Project maintenance.
 - Work in the open, unless the discussion requires privacy (for example personal or hiring, funders' interests, etc.), by sharing its meeting notes publicly and proactively sharing their plans with Rust Project members.
 - Publicly document its decision-making processes, funding decision rationale and funding program details.
 - Be open to feedback about their processes and funding decisions, in particular from other Rust Project members.
@@ -114,3 +115,5 @@ Given the amount of influence that the Funding team has, it has a special relati
 - The Leadership Council has to approve (as noted above in [Conflicts of interest](#conflicts-of-interest)) any funding that the team allocates to a member of the Funding team itself or to a member of the Leadership Council.
 
 The Funding team also has to report its budget (i.e. how much money it has and expects to spend in the following year) and funding status (how are MiRs happy with their role, what is the status of finding new funding sources, etc.) periodically, at least once a year. This is so that the Council can take these things into account when planning its own Project Priorities budget.
+
+The Leadership Council, together with the Funding team, can update this charter in the future.
