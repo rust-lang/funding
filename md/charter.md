@@ -104,7 +104,7 @@ The reality is that there is some amount of conflict of interest with almost any
 
 The (relatively permissive) rule thus acknowledges that this conflict can exist regardless of whether the candidate is a Funding team member or not, and puts trust into the Funding team members to decide what is best for the Rust Project.
 
-It also adds an additional safety guard on top by requiring the Leadership Council to explicitly confirm financial support of Funding team members. This would also prevent a (theoretical!) possibility where the members of the Funding team would collude and cross-fund each other, even if that would not in the best interest of the Rust Project.
+It also adds an additional safety guard on top by requiring the Leadership Council to explicitly confirm financial support of Funding team members. This would also prevent a (theoretical!) possibility where the members of the Funding team would collude and cross-fund each other, even if that would not be in the best interest of the Rust Project.
 
 ## Relation to the Leadership Council
 
