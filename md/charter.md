@@ -82,7 +82,7 @@ However, it is also of course a clear conflict of interest, both for members of 
 We instate the following rules to lessen (though not completely remove) the described conflict of interest.
 
 Conflicted candidates may ask to be financially supported by the Funding team for a specific role (e.g. being a MiR for team `X`), but this comes with caveats:
-- They must not vote on themselves.
+- They must not vote on themselves, and "leave the room" when any decisions about them being funded are being made.
 - They must not privately discuss the role that they are actively applying for (or being considered for) with the funding team, funding team advisers, or Leadership Council.
 - They must abstain from all decisions made about the role that they are actively applying (or being considered) for. This includes decisions whether the given role (or supported team) should be prioritized against other considered roles.
 
