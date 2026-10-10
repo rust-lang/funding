@@ -88,7 +88,7 @@ Conflicted candidates may ask to be financially supported by the Funding team fo
 
 Additionally, if the Funding team decides to financially support a conflicted candidate, that decision has to be explicitly approved by the Leadership Council prior to being finalized. If the conflicted candidate is a member of the Leadership Council, that member must abstain from this approval.
 
-The Funding team is also encouraged to discuss decisions to fund conflicted candidates with the broader Rust Project, to gather feedback on it.
+The Funding team is also encouraged to discuss decisions to fund conflicted candidates with the broader Rust Project to gather feedback on it, prior to that decision being made.
 
 Note that the Funding team primarily decides which *teams* to support, and only then should they look for candidates that could support those teams. When making those decisions, they should strive to decide as if the conflicted candidate was any other Project member.
 
