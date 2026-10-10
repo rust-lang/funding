@@ -36,7 +36,7 @@ Below is a non-exhaustive list of activities that the team is expected to perfor
 - Work in the open, unless the discussion requires privacy (for example personal or hiring, funders' interests, etc.), by sharing its meeting notes publicly and proactively sharing their plans with Rust Project members.
 - Publicly document its decision-making processes, funding decision rationale and funding program details.
 - Be open to feedback about their processes and funding decisions, in particular from other Rust Project members.
-- Work actively, to ensure that funding opportunities are not wasted unnecesarily, and that Rust Project members are not unnecessarily delayed from receiving funds that are allocated for contributor support.
+- Work actively, to ensure that funding opportunities are not wasted unnecesarily, and that Rust Project members are not unnecessarily delayed from receiving funds that were already allocated for their support. But also be mindful of waiting for potentially better opportunities, rather than spending all available funds as soon as possible.
 
 [rfmf-rfc]: https://rust-lang.github.io/rfcs/3931-rfmf-rust-foundation-maintainer-fund.html
 [grants]: https://github.com/rust-lang/leadership-council/issues/301
