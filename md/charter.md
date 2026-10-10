@@ -86,7 +86,7 @@ Conflicted candidates may ask to be financially supported by the Funding team fo
 - They must not privately discuss the role that they are actively applying for (or being considered for) with the funding team, funding team advisers, or Leadership Council.
 - They must abstain from all decisions made about the role that they are actively applying (or being considered) for. This includes decisions whether the given role (or supported team) should be prioritized against other considered roles.
 
-Additionally, if the Funding team decides to financially support a conflicted candidate, that decision has to be explicitly approved by the Leadership Council prior to being finalized. If the conflicted candidate is a member of the Leadership Council, they have to abstain from this approval.
+Additionally, if the Funding team decides to financially support a conflicted candidate, that decision has to be explicitly approved by the Leadership Council prior to being finalized. If the conflicted candidate is a member of the Leadership Council, that member must abstain from this approval.
 
 The Funding team is also encouraged to discuss decisions to fund conflicted candidates with the broader Rust Project, to gather feedback on it.
 
