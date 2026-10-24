@@ -117,4 +117,6 @@ Given the amount of influence that the Funding team has, it has a special relati
 
 The Funding team also has to report its budget (i.e. how much money it has and expects to spend in the following year) and funding status (how are MiRs happy with their role, what is the status of finding new funding sources, etc.), along with additional context periodically to the Council, at least once a year. This is so that the Council can evaluate the effectiveness of the funding, and make informed decisions when planning its own Project Priorities budget.
 
+The Funding team is also responsible for reporting on the overall health of funding within the project, including how much maintenance is funded vs. the feature development work that could put a strain on that maintenance.
+
 The Leadership Council, together with the Funding team, can update this charter in the future.
