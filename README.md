@@ -4,4 +4,4 @@ This repository serves for discussions and design documents about funding Rust m
 It is also used to coordinate the work of the [Rust Foundation Maintainer Fund Design subcommittee](https://github.com/rust-lang/leadership-council/pull/248).
 
 ## Design docs
-- [RFMF exploration doc](design-docs/exploration.md)
+- [RFMF exploration doc](design-docs/rfmf/exploration.md)
