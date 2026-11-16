@@ -13,7 +13,7 @@ You can find the current list of Maintainers in Residence on the [Rust Website][
 
 The main goal of the MiR program is to support Rust teams in order to fulfill their maintenance needs, and by that improve the long-term health and sustainability of the Rust Project overall. We do that by providing contracts to individual Rust Project members for maintenance activities, typically scoped to work within a small set of Rust teams and projects.
 
-We continuously evaluate the maintenance needs of Rust teams and our available funds. When we notice a situation where a team needs more maintainers, and we can dedicate funds for it, we will try to find a Rust Project member who is available and interested in being a MiR for that team. Ideally, it would be an existing member of the team that we want to support, but that might not always be possible.
+The Funding team continuously evaluates the maintenance needs of Rust teams. When we notice a situation where a team needs more maintainers, and we can dedicate funds for it, we will try to find a Rust Project member who is available and interested in being a MiR for that team. Ideally, it would be an existing member of the team that we want to support, but that might not always be possible.
 
 If we find a good fit, we will fund that maintainer for their maintenance work for the following 12 months, with the expectation of renewal.
 
@@ -29,7 +29,9 @@ Note that MiRs are normal members of their teams and the Rust Project, they do n
 
 ### Temporary unavailability
 
-MiRs are not required to ask for vacations or anything like that. However, if they know in advance that they will be unresponsible on GitHub and Zulip for an extended period of time (e.g. >1 week), we encourage them to share their expected (un)availability in the designed private Project channel on the Rust Zulip.
+MiRs are not required to ask for vacations or anything like that. However, if they know in advance that they will be unresponsible on GitHub and Zulip for an extended period of time (e.g. >1 week), we encourage them to share their expected (un)availability in the designated private Project [topic][zulip-vacation-topic] on the Rust Zulip.
+
+[zulip-vacation-topic]: https://rust-lang.zulipchat.com/#narrow/channel/546943-all.2Fprivate/topic/Vacation.2Fetc.2E.20announcements/with/640771120
 
 ### Reporting
 
@@ -62,7 +64,7 @@ Right now, we can't offer employment for MiRs, so we only offer contracting and 
 
 All signed contracts are for 12 months. We want to provide sustainable funding, and generally expect to renew each contract as long as we have funds for it.
 
-In situations where we would not have enough funds to prolong a contract, we will attempt to notify the funded maintainer in advance (at least 2-3 months).
+In situations where we would not have enough funds to prolong a contract, we will notify the funded maintainer in advance (at least 2-3 months).
 
 ## How to apply
 
@@ -88,7 +90,7 @@ We assign priority to *teams* that are understaffed, to figure out the next best
 
 The process of selecting individual teams and applicants is mostly performed in private, to avoid giving out false hopes when things change, and to avoid leaking personal details about e.g. the job status of individual people.
 
-The whole Rust Funding team participates in the selection process, and in voting to decide which teams to prioritize, and which MiRs to hire to support a given team.
+The whole Rust Funding team participates in the selection process, and in voting to decide which teams to prioritize, and which MiRs to hire to support a given team. During the selection process, the Funding team will discuss their choices with the team lead(s) that the MiR is designated to support (unless the team lead in question is the MiR candidate themselves).
 
 ## Where do we get funds
 
