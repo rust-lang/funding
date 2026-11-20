@@ -5,5 +5,9 @@ In the past, it was also used to coordinate the work of the [Rust Foundation Mai
 
 [funding-team]: https://rust-lang.org/governance/teams/launching-pad/#team-funding
 
+## Maintainer in Residence
+
+One of the main initiatives led by the Funding team is the [Maintainer in Residence](./md/mir.md) program.
+
 ## Design docs
 - [RFMF exploration doc](design-docs/rfmf/exploration.md)
