@@ -11,7 +11,7 @@ You can find the current list of Maintainers in Residence on the [Rust Website][
 
 ## How the MiR program works
 
-The main goal of the MiR program is to support Rust teams in order to fulfill their maintenance needs, and by that improve the long-term health and sustainability of the Rust Project overall. We do that by providing contracts to individual Rust Project members for maintenance activities, typically scoped to work within a small set of Rust teams and projects.
+The main goal of the MiR program is to support Rust teams in order to fulfill their maintenance needs, and by that improve the long-term health and sustainability of the Rust Project overall. We do that by providing contracts and grants to individual Rust Project members for maintenance activities, typically scoped to work within a small set of Rust teams and projects.
 
 The Funding team continuously evaluates the maintenance needs of Rust teams. When we notice a situation where a team needs more maintainers, and we can dedicate funds for it, we will try to find a Rust Project member who is available and interested in being a MiR for that team. Ideally, it would be an existing member of the team that we want to support, but that might not always be possible.
 
